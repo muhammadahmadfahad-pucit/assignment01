@@ -61,4 +61,17 @@
         android:textSize="25dp"
         android:text="Enter Name"/>
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="176dp"
+        android:layout_height="105dp"
+        android:text="CheckBox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.435"
+        android:background="@android:color/darker_gray"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
